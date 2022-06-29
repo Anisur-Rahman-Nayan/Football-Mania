@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+.player-info .player-img img{
+    width: 280px;
+}
+.all-player-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+    
+}
+.player-info{
+    width: 280px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 5px gray;
+    border-radius: 8px;
+    
+}
+.player-img{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.match-div .match-pic img{
+    width: 400px;
+    border-radius: 15px;
+    margin-right: 10px;
+   
+    
+}
+.match-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    width: 77%;
+    padding: 10px;
+    box-shadow: 5px 5px 7px 5px gray;
+    border-radius: 10px;
+    
+}
+.match-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;  
+    margin-bottom: 100px;
+    height: 400px;
+}
+.match-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.myButton {
+	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	background-color:white;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:7px 48px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.myButton:hover {
+	background-color:#9ba892;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.text-format{
+    margin-left: 30px;
+}
+.match-pic{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 500px;
+}
+.icons img{
+    width: 45px;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer{
+    margin-bottom: 50px;
+}
+.copy-right{
+    text-align: center;
+
+}
+.header{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+body{
+    margin: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+.image-title img{
+    width: 550px;
+}
+.header-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color: #FFFF00;
+}
+.nav-bar > nav > ul{
+    list-style: none;
+}
+.nav-bar > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.nav-bar > nav > ul {
+    display: flex ;
+}
+.logo-btn img{
+    width: 30px;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-btn{
+    margin-right: 100px;
+    display: flex;
+    margin-top: 13px;
+}
+.big{
+    font-size: 1.3em; 
+    margin: 4px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .match-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .all-player-info{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      
+        
+    }
+    .image-title img{
+        width: 200px;
+      }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 688px) {
+    .match-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .all-player-info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .logo-div img{
+        width: 200px;
+    }
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 689px) and (max-width:992px){
+    .match-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .all-player-info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .logo-div img{
+        width: 200px
+    }
+  .image-title img{
+    width: 200px;
+  }
+}
